@@ -1,4 +1,3 @@
-/* style.css */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -82,4 +81,44 @@ button {
   margin: 25px;
   font-size: medium;
   
+}
+
+.bodyclass{
+
+  background-color: #d1d8ff;
+  display: flex;
+  flex-direction: column;
+  
+}
+.cs{
+    background-color: #ffe7d1;
+    color: #880202;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.ex{
+  color: #00103d;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
+
+}
+.exited{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    padding: 20px;
+}
+
+.exited img{
+  max-width: 90%;
+  height: auto;
+  border-radius: 5%;
+
 }
